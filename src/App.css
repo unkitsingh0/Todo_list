@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.main_div{
+display: flex;   
+align-items: center;
+justify-content: center;
+height: 100vh;
+width: 100vw;
+background-color: #6682a9;
+
+}
+
+
+.center_div{
+    background-color: white;
+    height: 55vh;
+    width: 20vw;
+    /* padding: 1rem; */
+    text-align: center;
+    border-radius: 1rem;
+    overflow-y: auto;
+    /* overflow: hidden; */
+}
+.center_div::-webkit-scrollbar{
+    display: none;
+}
+.center_div h1{
+    /* border: 2px solid red; */
+    background-color: blueviolet;
+    width: 100%;
+    color: white;
+}
+.center_div input {
+    width: 70%;
+    height: 2rem;
+    border: none;
+    border-bottom: 1px solid blueviolet;
+    text-align: center;
+    outline: none;
+}
+
+.center_div button{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    width: 11%;
+    height: 2rem;
+    font-weight: bolder;
+    font-size: 1rem;
+    border: none;
+}
+.center_div button:hover{
+    background-color: rgb(36, 245, 36);
+}
+
+.center_div ol li{
+    text-decoration: none;
+    list-style: none;
+    text-align: justify;
+    color: blueviolet;
+    margin-left: 1.3rem;
+    margin-top: 0.7rem;
+}
+
+.Todo_list {
+    display: flex;
+    
+}
+
+.fa-solid{
+    margin-top: 1rem;
+    margin-left: .5rem;
+    color: black;
+}
+
+.fa-solid:hover{
+    color: rgb(255, 20, 20);
+}
