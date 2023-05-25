@@ -28,6 +28,11 @@ background-color: #6682a9;
     overflow-y: auto;
     /* overflow: hidden; */
 }
+@media screen and (max-width:800px){
+    .center_div{
+        width: 50vw;
+    }
+}
 .center_div::-webkit-scrollbar{
     display: none;
 }

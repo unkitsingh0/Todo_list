@@ -14,7 +14,8 @@ function App() {
 
 
   // This function will add the items in todo list 
-  let subBtn = ()=>{
+  let subBtn = (event)=>{
+    event.preventDefault()
     // setTodoData([...todoData,inputTodo]) // This is one method 
     if(inputTodo===''){
       console.log('dekh re baba')
@@ -44,9 +45,16 @@ function App() {
 
         <h1>ToDo List</h1>
         <br/>
+    
+{/* 
+        <input type='text' onChange={TodoInput} value={inputTodo} placeholder='Add Todo'/>
+      <button onClick={subBtn}>+</button> */}
+
+<form onSubmit={subBtn}>
 
         <input type='text' onChange={TodoInput} value={inputTodo} placeholder='Add Todo'/>
-      <button onClick={subBtn}>+</button>
+      <button >+</button>
+</form>
     <br>
     </br>
 
