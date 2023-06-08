@@ -28,9 +28,14 @@ background-color: #6682a9;
     overflow-y: auto;
     /* overflow: hidden; */
 }
-@media screen and (max-width:800px){
+@media screen and (max-width:1000px){
     .center_div{
-        width: 50vw;
+        width: 30vw;
+    }
+}
+@media screen and (max-width:500px){
+    .center_div{
+        width: 60vw;
     }
 }
 .center_div::-webkit-scrollbar{
